@@ -1,0 +1,432 @@
+<?php
+		require_once('include/db_conn.php');
+
+
+?>
+
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://shtheme.com/demosd/orgafe/?product=fresh-orange -->
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="./pizza_cart_files/logo(1).png">
+    
+    <title>Cart</title>
+<link rel="dns-prefetch" href="https://maps.googleapis.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Orgafe » Feed" href="https://shtheme.com/demosd/orgafe/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="Orgafe » Comments Feed" href="https://shtheme.com/demosd/orgafe/?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="Orgafe » NATURE WATERMELON Comments Feed" href="https://shtheme.com/demosd/orgafe/?feed=rss2&amp;p=417">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/shtheme.com\/demosd\/orgafe\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.18"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./pizza_cart_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="./pizza_cart_files/styles.css" media="all">
+<link rel="stylesheet" id="woocommerce_prettyPhoto_css-css" href="./pizza_cart_files/prettyPhoto.css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="./pizza_cart_files/woocommerce-layout.css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="./pizza_cart_files/woocommerce-smallscreen.css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="./pizza_cart_files/woocommerce.css" media="all">
+<link rel="stylesheet" id="orgafe-fonts1-css" href="./pizza_cart_files/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./pizza_cart_files/bootstrap.min.css" media="all">
+<link rel="stylesheet" id="owl-carousel-css" href="./pizza_cart_files/owl.carousel.min.css" media="all">
+<link rel="stylesheet" id="animate-css" href="./pizza_cart_files/animate.min.css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="./pizza_cart_files/magnific-popup.css" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="./pizza_cart_files/fontawesome-all.min.css" media="all">
+<link rel="stylesheet" id="dripicons-css" href="./pizza_cart_files/dripicons.css" media="all">
+<link rel="stylesheet" id="meanmenu-css" href="./pizza_cart_files/meanmenu.css" media="all">
+<link rel="stylesheet" id="orgafe-slick-css" href="./pizza_cart_files/slick.css" media="all">
+<link rel="stylesheet" id="orgafe-default-css" href="./pizza_cart_files/default.css" media="all">
+<link rel="stylesheet" id="orgafe-style-css" href="./pizza_cart_files/style.css" media="all">
+<link rel="stylesheet" id="orgafe-responsive-css" href="./pizza_cart_files/responsive.css" media="all">
+<link rel="stylesheet" id="style-css" href="./pizza_cart_files/style(1).css" media="all">
+<script src="./pizza_cart_files/jquery.js.download"></script>
+<script src="./pizza_cart_files/jquery-migrate.min.js.download"></script>
+<script>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/demosd\/orgafe\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demosd\/orgafe\/?product=fresh-orange&wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"https:\/\/shtheme.com\/demosd\/orgafe\/?page_id=6","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script src="./pizza_cart_files/add-to-cart.min.js.download"></script>
+<script src="./pizza_cart_files/woocommerce-add-to-cart.js.download"></script>
+<script src="./pizza_cart_files/js"></script>
+<link rel="https://api.w.org/" href="https://shtheme.com/demosd/orgafe/index.php?rest_route=/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://shtheme.com/demosd/orgafe/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://shtheme.com/demosd/orgafe/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="NATURE PUMPKIN" href="https://shtheme.com/demosd/orgafe/?product=fresh-grapes-copy">
+<meta name="generator" content="WordPress 4.9.18">
+<meta name="generator" content="WooCommerce 2.6.6">
+<link rel="canonical" href="https://shtheme.com/demosd/orgafe/?product=fresh-orange">
+<link rel="shortlink" href="https://shtheme.com/demosd/orgafe/?p=417">
+<link rel="alternate" type="application/json+oembed" href="https://shtheme.com/demosd/orgafe/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=https%3A%2F%2Fshtheme.com%2Fdemosd%2Forgafe%2F%3Fproduct%3Dfresh-orange">
+<link rel="alternate" type="text/xml+oembed" href="https://shtheme.com/demosd/orgafe/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=https%3A%2F%2Fshtheme.com%2Fdemosd%2Forgafe%2F%3Fproduct%3Dfresh-orange&amp;format=xml">
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet"  href="https://shtheme.com/demosd/orgafe/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style class="options-output">body{font-weight:normal;font-style:normal;color:#333;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<script type="text/javascript" charset="UTF-8" src="./pizza_cart_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./pizza_cart_files/util.js.download"></script></head>
+<script src="jquery-3.6.0.min.js"></script>
+<body id="bg" class="product-template-default single single-product postid-417 woocommerce woocommerce-page wpb-js-composer js-comp-ver-5.4.7 vc_responsive" data-new-gr-c-s-check-loaded="14.1032.0" data-gr-ext-installed="">
+ <!-- header-start -->
+
+ <header>
+
+<div id="sticky-header" class="main-menu-area header-2-menu pl-55 pr-55 sticky">
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-xl-6 col-lg-6 d-flex align-items-center">
+
+				<div class="logo">
+
+					<a href="#"><img src="image/pizza_logo.png" alt=""></a>
+
+				</div>
+				<div class="logo">
+
+						<a href="#"><h1 style="padding-top:15px">PIZZA HOUSE</h1></a>
+
+				</div>
+
+			</div>
+
+			<div class="col-xl-2 col-lg-4">
+
+				<div class="main-menu">
+
+					<nav id="mobile-menu" style="display: block;">
+
+						<ul class=" ">
+
+<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462 active"><a title="Contact" class="123" href="./index.php">home</a></li>
+
+<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462"><a title="Contact" class="123" href="#">Login</a></li>
+
+<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462"><a title="Contact" class="123" href="#">cart</a></li>
+</ul>
+					</nav>
+
+				</div>
+
+				<div class="mobile-menu"></div>
+
+			</div>
+
+			<div class="col-xl-4 col-lg-3">
+
+				<div class="header2-right d-none d-md-none d-lg-block">
+
+					<div class="menu-bar f-right info-bar text-right d-none d-md-none d-lg-block">
+
+						<span></span>
+
+						<span></span>
+
+						<span></span>
+
+					</div>
+
+					 
+
+					<div class="header-icon f-right">
+
+						
+						<a href="https://shtheme.com/demosd/orgafe/?page_id=142#">
+
+							<i class="fab fa-facebook-f"></i>
+
+						</a>
+
+						
+						
+						<a href="https://shtheme.com/demosd/orgafe/?page_id=142#">
+
+							<i class="fab fa-twitter"></i>
+
+						</a>
+
+						
+						
+						<a href="https://shtheme.com/demosd/orgafe/?page_id=142#">
+
+							<i class="fab fa-google-plus-g"></i>
+
+						</a>
+
+						
+						
+						<a href="https://shtheme.com/demosd/orgafe/?page_id=142#">
+
+							<i class="fab fa-instagram"></i>
+
+						</a>
+
+						
+					</div>
+
+					<div class="header-right f-right d-none d-md-block">
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+	<div class="extra-info">
+
+		<div class="close-icon">
+
+			<button>
+
+				<i class="far fa-window-close"></i>
+
+			</button>
+
+		</div>
+
+		<div class="logo-side mb-30">
+
+			<a href="https://shtheme.com/demosd/orgafe/">
+
+				
+				<!-- <img src="image/pizza_logo.png" alt=""> -->
+
+				
+			</a>
+
+		</div>
+
+		<div class="side-info mb-30">
+
+			<div class="contact-list mb-30">
+
+				<h4>Shop Address</h4>
+
+				<p>123/A, Abdullah Mall                                Hyderabad, Sindh</p>
+
+			</div>
+
+			<div class="contact-list mb-30">
+
+				<h4>Phone Number</h4>
+
+				<p>+92 3123092323 <br> 022 2117804</p>
+
+			</div>
+
+			<div class="contact-list mb-30">
+
+				<h4>Email Address</h4>
+
+				<p>info@pizzahouse.com <br> mbux.mail@hum.com</p>
+
+			</div>
+
+		</div>
+
+		
+
+	   
+	</div>
+
+</header>
+<main>
+<!-- breadcrumb-area-end -->
+<?php
+$connection = get_connection();
+$sql = "select * from products where id =$pid";
+$result= mysqli_query($connection,$sql);
+
+$row = mysqli_fetch_assoc($result);
+
+
+?>
+ <script>
+    
+    $(document).ready(function(){
+       
+        $('#cart').click(
+            
+        
+            
+        );
+     
+    });
+	</script>
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3954px;"><div class="single-slider slider-height d-flex align-items-center slick-slide slick-current slick-active" data-background="https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/slider2.jpg" data-slick-index="0" style="background-image: url(&quot;https://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/slider2.jpg&quot;); width: 1318px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" aria-hidden="false" tabindex="0">
+    	
+<div class="container">
+	<div class="row">
+		<div class="col-lg-2">
+			
+		</div>
+		<div class="col-lg-8">
+			
+		</div>
+		<div class="col-lg-2">
+			
+		</div> 
+
+	<div>
+</div>
+</div>
+
+<footer>
+    <div class="footer-area footer1 grey1-bg pt-75">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                                        <div id="text-10">			<div class="textwidget"><div class="footer-wrapper mb-30">
+<div class="footer-title">
+<h4>About Us</h4>
+<p></p></div>
+<div class="footer2-text">
+<p></p>
+<p></p></div>
+<ul class="footer-address">
+<li>
+                                            <strong>Address :</strong><p></p>
+<p>123/A, Abdullah Mall Hyderabad, Sindh</p>
+</li>
+<li>
+                                            <strong>Email Us :</strong><p></p>
+<p>support@gmail.com</p>
+</li>
+<li>
+                                            <strong>Phone Us :</strong><p></p>
+<p>022-2117-804 </p>
+</li>
+</ul></div>
+</div>
+		</div>                                    </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                                        <div id="text-11">			<div class="textwidget"><div class="footer-wrapper pl-45 mb-30">
+<div class="footer-title">
+<h4>Customer Support</h4>
+<p></p></div>
+<ul class="fotter-menu">
+<li><a href="#">Help and Ordering</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Return &amp; Cancellation</a></li>
+<li><a href="#">Delevery Schedule</a></li>
+<li><a href="#">Get a Call</a></li>
+<li><a href="#">Online Enquiry</a></li>
+<li><a href="#">My Account</a></li>
+</ul></div>
+</div>
+		</div>                                    </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                                        <div id="text-12">			<div class="textwidget"><div class="footer-wrapper mb-30">
+<div class="footer-title">
+<h4>Recent News</h4>
+<p></p></div>
+<ul class="footer-list">
+<li>
+<div class="footer-info">
+<h5><a href="https://shtheme.com/demosd/orgafe/?page_id=142#">Using Visual Composer Webs Builder Create WordPress Websites.</a></h5>
+<p>                                                <span>By Zamilsh</span>
+                                            </p></div>
+</li>
+<li>
+<div class="footer-info">
+<h5><a href="https://shtheme.com/demosd/orgafe/?page_id=142#">How Build Virtua Reality Models With Real Cross Device Preview.</a></h5>
+<p>                                                <span>By Favir Nail</span>
+                                            </p></div>
+</li>
+</ul></div>
+</div>
+		</div>                                    </div>
+
+</div></div>
+<p></p></div>
+</div>
+		</div>                                    </div>
+            </div>
+            <div class="footer-border mt-30 pt-20 pb-25">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div class="copyright">
+                            <p>                             Copyright                            <i class="far fa-copyright"></i>                             2019                            <a href="https://shtheme.com/demosd/orgafe/?page_id=142#">                           BDevs.                           </a>                            All Rights Reserved                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer-area-end -->
+
+</main>
+
+<!-- JS here -->
+<script>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/shtheme.com\/demosd\/orgafe\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script src="./pizza_cart_files/scripts.js.download"></script>
+<script src="./pizza_cart_files/jquery.prettyPhoto.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.prettyPhoto.init.min.js.download"></script>
+<script>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes"};
+/* ]]> */
+</script>
+<script src="./pizza_cart_files/single-product.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.blockUI.min.js.download"></script>
+<script>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/demosd\/orgafe\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demosd\/orgafe\/?product=fresh-orange&wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script src="./pizza_cart_files/woocommerce.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.cookie.min.js.download"></script>
+<script>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/demosd\/orgafe\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demosd\/orgafe\/?product=fresh-orange&wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script src="./pizza_cart_files/cart-fragments.min.js.download"></script>
+<script src="./pizza_cart_files/comment-reply.min.js.download"></script>
+<script src="./pizza_cart_files/modernizr-3.5.0.min.js.download"></script>
+<script src="./pizza_cart_files/jquery-1.12.4.min.js.download"></script>
+<script src="./pizza_cart_files/popper.min.js.download"></script>
+<script src="./pizza_cart_files/bootstrap.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.counterup.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.countdown.min.js.download"></script>
+<script src="./pizza_cart_files/waypoints.min.js.download"></script>
+<script src="./pizza_cart_files/owl.carousel.min.js.download"></script>
+<script src="./pizza_cart_files/isotope.pkgd.min.js.download"></script>
+<script src="./pizza_cart_files/slick.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.meanmenu.min.js.download"></script>
+<script src="./pizza_cart_files/ajax-form.js.download"></script>
+<script src="./pizza_cart_files/wow.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.scrollUp.min.js.download"></script>
+<script src="./pizza_cart_files/imagesloaded.min.js.download"></script>
+<script src="./pizza_cart_files/jquery.magnific-popup.min.js.download"></script>
+<script src="./pizza_cart_files/plugins.js.download"></script>
+<script src="./pizza_cart_files/main.js.download"></script><a id="scrollUp" href="https://shtheme.com/demosd/orgafe/?product=fresh-orange#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fas fa-angle-up"></i></a>
+<script src="./pizza_cart_files/wp-embed.min.js.download"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
